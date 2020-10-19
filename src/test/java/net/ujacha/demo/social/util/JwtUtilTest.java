@@ -1,0 +1,19 @@
+package net.ujacha.demo.social.util;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class JwtUtilTest {
+
+    @Test
+    public void test(){
+        
+        String jwt = "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE3OGFiMWRjNTkxM2Q5MjlkMzdjMjNkY2FhOTYxODcyZjhkNzBiNjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyNzM5MTEwNDgxODQtNHNnN2l0amNrcXRsNGEzdWIxM2M4YXZyczVpZWFjcjAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyNzM5MTEwNDgxODQtNHNnN2l0amNrcXRsNGEzdWIxM2M4YXZyczVpZWFjcjAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDMzNjIyMjE2NzE2NjEyMDA3NjgiLCJlbWFpbCI6ImxlbWl0ZTR1QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiQW5CemxUWlZuZ0Ywak4zYl9mdnpPZyIsIm5hbWUiOiJEZXZpbiBTYW5naG9vbiBLaW0iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2ljbXppVnhndEFPd0RMLWNIdDd0RDNtNzV6ZlVGSkZGdUNqUXhBTGc9czk2LWMiLCJnaXZlbl9uYW1lIjoiRGV2aW4gU2FuZ2hvb24iLCJmYW1pbHlfbmFtZSI6IktpbSIsImxvY2FsZSI6ImtvIiwiaWF0IjoxNjAzMDk3NTQ4LCJleHAiOjE2MDMxMDExNDh9.SIbrsJkhReGH9C3imX-W5EXyy83emhGuOAj4D4nY_lwtJ3GFu3HENR7AnSdFMHFk1ssz5e4zsTqK0NP_F0hWzyYhQViL5uVDSkr2lAWJjVBMyVB15Hv_bj_P6Pt37I8g9nhFK5jJcWgQjYqfK_xxvBfszZQnoo0bbzj-uai05FV-q7Pu9aOblWfKOcdjZ6aErOiN9PV2gbfe0IaQYG5cp17KEXKS_J8S-7lSegZIdF2YqfNCdBYzvSXUgXJN5BJweNH0RU1g4suwPLrhGjFKK9pB0ojZFhwliF2OvrU8NjRHZiWxLJLWgHpPrbZNfRKbMsh6E5EaIS1TYQJcfvpTxQ";
+        String payload = JwtUtil.getPayload(jwt);
+
+        System.out.println("payload = " + payload);
+
+    }
+    
+}

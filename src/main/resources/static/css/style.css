@@ -1,0 +1,55 @@
+main {
+    margin-top: 2rem;
+}
+
+.btn-email {
+    font-weight: bold;
+}
+
+.btn-kakao {
+    font-weight: bold;
+    color: #fce74e;
+    background-color: #362424;
+}
+
+.btn-kakao:hover {
+    font-weight: bold;
+    color: #fce74e;
+    background-color: #463434;
+}
+
+.btn-naver {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #53B435;
+}
+
+.btn-naver:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #63C445;
+}
+
+.btn-google {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #C95A4B;
+}
+
+.btn-google:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #D96A5B;
+}
+
+.btn-facebook {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4D68A5;
+}
+
+.btn-facebook:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #5D78B5;
+}
