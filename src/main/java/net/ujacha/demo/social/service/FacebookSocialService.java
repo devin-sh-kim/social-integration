@@ -51,7 +51,7 @@ public class FacebookSocialService implements ISocialService {
                 "?response_type=code" +
                 "&client_id=" + clientId +
                 "&redirect_uri=" + redirectUrl +
-                "&state=" + state;
+                "&state=" + state + "&scope=email";
     }
 
     @Override
